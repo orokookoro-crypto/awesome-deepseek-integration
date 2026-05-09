@@ -1156,6 +1156,11 @@ The purpose is to build infrastructure in the field of large models, through the
 
 <table>
     <tr>
+        <td> <img src="https://www.gstatic.com/devrel-devsite/prod/v45f61267e8ebb1cf63e6c3a3a9abfe2e1fb7c59a0a4a8f1e08d92d56e5ca8b0a/cloud/images/favicons/onecloud/super_cloud.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/google-oauth-web-server/README.md"> Google OAuth 2.0 Web Server + DeepSeek </a> </td>
+        <td> A step-by-step guide and Flask example for building web applications that authenticate users via the Google OAuth 2.0 Web Server flow and use DeepSeek AI to process Google Workspace data (Drive, Gmail, Calendar, and more). </td>
+    </tr>
+    <tr>
         <td> <img src="https://raw.githubusercontent.com/mlflow/mlflow/refs/heads/master/assets/icon.svg" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://mlflow.org/docs/latest/tracing/integrations/deepseek"> MLflow </a></td>
         <td> Open-source MLOps / LLMOps platform for build, test, deploy, and monitor AI applications with DeepSeek. </td>
