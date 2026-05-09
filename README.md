@@ -1136,6 +1136,11 @@ The purpose is to build infrastructure in the field of large models, through the
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
         <td> Tencent's Hunyuan Security Team - AI infrastructure security assessment tool designed to discover and detect potential security risks in AI systems.</td>
     </tr>
+    <tr>
+        <td> <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/google-auth/README.md"> Google Auth </a> </td>
+        <td> Integrate Google OAuth 2.0 / OpenID Connect authentication into DeepSeek-powered applications. Verify user identity with Google Sign-In before granting access to DeepSeek APIs, supporting web, iOS, and Android platforms.</td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#table-of-contents">^ Back to Contents ^</a></p>
