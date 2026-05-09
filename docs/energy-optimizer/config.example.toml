@@ -1,0 +1,83 @@
+# Energy Optimizer — example configuration
+# Copy to config.toml and edit before first run.
+# Generate hmac_key_hex with: openssl rand -hex 32
+
+[mqtt]
+host      = "localhost"
+port      = 1883
+client_id = "energy-optimizer"
+# username = "mqtt_user"
+# password = "mqtt_pass"
+
+[audit]
+db_path         = "/var/lib/energy-optimizer/audit.db"
+export_path     = "/media/usb/energy-audit"
+export_interval = 100
+hmac_key_hex    = "REPLACE_WITH_64_HEX_CHARS_FROM_openssl_rand_-hex_32"
+
+[strategy]
+# Peak hours (24h, inclusive): [[morning_start, morning_end], [evening_start, evening_end]]
+peak_hours           = [[7, 9], [16, 21]]
+offpeak_threshold_w  = 3500.0
+peak_threshold_w     = 2000.0
+min_off_seconds      = 300
+manual_hold_seconds  = 1800
+
+[grid]
+# Optional Agile Octopus API endpoint — leave commented for fully offline mode.
+# tariff_api        = "https://api.octopus.energy/v1/products/AGILE-24-10-01/electricity-tariffs/E-1R-AGILE-24-10-01-C/standard-unit-rates/"
+tariff_cache_path     = "/var/lib/energy-optimizer/tariff.json"
+fallback_peak_pence   = 28.5
+fallback_offpeak_pence = 7.5
+
+# ── Devices ────────────────────────────────────────────────────────────────
+# Add one [[devices]] section per controlled circuit.
+# priority: 1 = shed first, 10 = shed last
+
+[[devices]]
+id            = "washing_machine"
+label         = "Washing Machine"
+sensor_topic  = "home/sensors/washing_machine"
+control_topic = "home/control/washing_machine"
+gpio_pin      = 17          # BCM pin on RPi; remove line if MQTT-only
+priority      = 1
+rated_watts   = 2000.0
+sheddable     = true
+
+[[devices]]
+id            = "dishwasher"
+label         = "Dishwasher"
+sensor_topic  = "home/sensors/dishwasher"
+control_topic = "home/control/dishwasher"
+gpio_pin      = 27
+priority      = 2
+rated_watts   = 1800.0
+sheddable     = true
+
+[[devices]]
+id            = "ev_charger"
+label         = "EV Charger"
+sensor_topic  = "home/sensors/ev_charger"
+control_topic = "home/control/ev_charger"
+# No GPIO — controlled via MQTT only (smart EVSE with MQTT support)
+priority      = 3
+rated_watts   = 7400.0
+sheddable     = true
+
+[[devices]]
+id            = "fridge"
+label         = "Fridge / Freezer"
+sensor_topic  = "home/sensors/fridge"
+control_topic = "home/control/fridge"
+priority      = 10
+rated_watts   = 150.0
+sheddable     = false        # Never shed — food safety
+
+[[devices]]
+id            = "main_incomer"
+label         = "Main Incomer (whole house)"
+sensor_topic  = "home/sensors/main_incomer"
+control_topic = "home/control/main_incomer"
+priority      = 10
+rated_watts   = 0.0
+sheddable     = false        # Measurement only
