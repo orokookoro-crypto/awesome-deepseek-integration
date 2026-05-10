@@ -913,6 +913,11 @@
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
         <td> 腾讯混元安全-AI基础设施安全评估工具，发现和检测AI系统中的潜在安全风险。</td>
     </tr>
+    <tr>
+        <td> <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/google-auth/README.md"> Google Auth </a> </td>
+        <td> 将 Google OAuth 2.0 / OpenID Connect 身份验证集成到 DeepSeek 应用中。通过 Google 登录验证用户身份后再授权访问 DeepSeek API，支持 Web、iOS 和 Android 平台。</td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>

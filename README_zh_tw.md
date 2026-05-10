@@ -980,6 +980,11 @@
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
         <td> 騰訊混元安全團隊 - AI 基礎設施安全評估工具，旨在發現和檢測 AI 系統中的潛在安全風險。 </td>
     </tr>
+    <tr>
+        <td> <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/google-auth/README.md"> Google Auth </a> </td>
+        <td> 將 Google OAuth 2.0 / OpenID Connect 身份驗證整合至 DeepSeek 應用程式。透過 Google 登入驗證使用者身份後，再授權存取 DeepSeek API，支援 Web、iOS 和 Android 平台。</td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#目錄">^ 返回目錄 ^</a></p>

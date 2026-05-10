@@ -866,6 +866,11 @@ DeepSeek API を人気のソフトウェアに統合します。API キーを取
         <td> テンセント混元セキュリティチーム - AIインフラのセキュリティ評価ツールで、AIシステムにおける潜在的なセキュリティリスクを発見・検出することを目的としています。</td>
     </tr>
     <tr>
+        <td> <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/google-auth/README.md"> Google Auth </a> </td>
+        <td> Google OAuth 2.0 / OpenID Connect 認証を DeepSeek アプリに統合します。Google サインインでユーザーを認証してから DeepSeek API へのアクセスを許可し、Web・iOS・Android に対応しています。</td>
+    </tr>
+    <tr>
         <td> <img src="https://github.com/yincongcyincong/telegram-deepseek-bot/blob/main/static/logo.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/yincongcyincong/telegram-deepseek-bot">telegram-deepseek-bot</a> </td>
         <td> <a href="https://github.com/yincongcyincong/telegram-deepseek-bot">telegram-deepseek-bot</a> はDeepSeek AI機能を統合したTelegramボットです。 </td>
