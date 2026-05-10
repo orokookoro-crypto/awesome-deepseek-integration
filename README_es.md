@@ -915,6 +915,11 @@ Integra la API de DeepSeek en softwares populares. Accede a la [Plataforma Abier
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
         <td> Herramienta para evaluar la seguridad de infraestructuras de IA y detectar riesgos potenciales.</td>
     </tr>
+    <tr>
+        <td> <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/google-auth/README.md"> Google Auth </a> </td>
+        <td> Integra autenticación Google OAuth 2.0 / OpenID Connect en aplicaciones DeepSeek. Verifica la identidad del usuario con Google Sign-In antes de otorgar acceso a las APIs de DeepSeek, compatible con Web, iOS y Android.</td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#tabla-de-contenidos">^ Volver al índice ^</a></p>
