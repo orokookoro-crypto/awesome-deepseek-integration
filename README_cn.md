@@ -30,11 +30,16 @@
     - [Office插件](#office插件)
     - [浏览器插件](#浏览器插件)
     - [VS Code 插件](#vs-code-插件)
+    - [Visual Studio 插件](#visual-studio-插件)
     - [neovim 插件](#neovim-插件)
     - [JetBrains 插件](#jetbrains-插件)
+    - [Discord 机器人](#discord-机器人)
     - [AI Code编辑器](#ai-code编辑器)
+    - [Emacs](#emacs)
     - [安全](#安全)
+    - [提供商](#提供商)
     - [其它](#其它)
+    - [Star History](#star-history)
 
 ## 项目列表
 
@@ -834,6 +839,28 @@
 
 <p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
 
+###  <span id="vs">Visual Studio 插件</span>
+
+<table>
+    <tr>
+        <td> <img src="https://merryyellow.gallerycdn.vsassets.io/extensions/merryyellow/comment2gpt/2.0.5/1739475434185/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=MerryYellow.Comment2GPT"> Comment2GPT </a> </td>
+        <td> 通过注释使用 OpenAI ChatGPT、Google Gemini、Anthropic Claude、DeepSeek 和 Ollama </td>
+    </tr>
+    <tr>
+        <td> <img src="https://merryyellow.gallerycdn.vsassets.io/extensions/merryyellow/codelens2gpt/2.0.5/1739475875714/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=MerryYellow.CodeLens2GPT"> CodeLens2GPT </a> </td>
+        <td> 通过 CodeLens 使用 OpenAI ChatGPT、Google Gemini、Anthropic Claude、DeepSeek 和 Ollama </td>
+    </tr>
+    <tr>
+        <td> <img src="https://merryyellow.gallerycdn.vsassets.io/extensions/merryyellow/uca-lite/1.4.2/1739392928984/Microsoft.VisualStudio.Services.Icons.Default" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://marketplace.visualstudio.com/items?itemName=MerryYellow.UCA-Lite"> Unity Code Assist Lite </a> </td>
+        <td> Unity 脚本的代码辅助工具 </td>
+    </tr>
+</table>
+
+<p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
+
 ###  <span id="neovim">neovim 插件</span>
 
 <table>
@@ -883,6 +910,18 @@
 
 <p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
 
+###  <span id="discord">Discord 机器人</span>
+
+<table>
+    <tr>
+        <td> <img src="https://geneplore.com/img/geneplore_color_logo_circular.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/Geneplore AI/README.md"> Geneplore AI </a> </td>
+        <td> Geneplore AI 运营着最大型的 AI Discord 机器人之一，现已支持 Deepseek v3 和 R1。 </td>
+    </tr>
+</table>
+
+<p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
+
 ###  <span id="codeeditor">AI Code编辑器</span>
 
 <table>
@@ -905,6 +944,23 @@
 
 <p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
 
+###  <span id="emacs">Emacs</span>
+
+<table>
+    <tr>
+        <td> <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/karthink/gptel"> gptel </a> </td>
+        <td> 一个简洁的 Emacs LLM 客户端 </td>
+    </tr>
+    <tr>
+        <td> <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/milanglacier/minuet-ai.el"> Minuet AI </a> </td>
+        <td> 在您的代码中与智能共舞 💃 </td>
+    </tr>
+</table>
+
+<p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
+
 ###  <span id="security">安全</span>
 
 <table>
@@ -912,6 +968,18 @@
         <td> <img src="./docs/tencent/hunyuan.png"  alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
         <td> 腾讯混元安全-AI基础设施安全评估工具，发现和检测AI系统中的潜在安全风险。</td>
+    </tr>
+</table>
+
+<p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
+
+###  <span id="providers">提供商</span>
+
+<table>
+    <tr>
+        <td> <img src="./docs/aimlapi/aimlapi_logo.png"  alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://docs.aimlapi.com/api-references/text-models-llm?utm_source=awesome-deepseek-integrations&utm_medium=github&utm_campaign=integration"> AI/ML API </a> </td>
+        <td> AI/ML API 通过单一 API 为用户提供企业级的 200+ 模型访问，包括 Deepseek R1 和 V3，以及闭源和开源模型。99% 正常运行时间，7×24 小时人工支持。</td>
     </tr>
 </table>
 
